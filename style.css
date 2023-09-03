@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Inter&display=swap');
+
 
 .navbar{
     position: fixed;
@@ -111,8 +113,13 @@
     text-align: center;
     width: 291px;
     height: 96px;
+}
 
-
+.loginform{
+    width: 415px;
+    height: 496px;
+    top: 223px;
+    left: 291px;
 }
 
 #livelectures{
@@ -123,10 +130,16 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: center;
 }
-#button{
+
+
+#button {
     color: #eee;
     font-style: italic;
+    height: 44px;
+    width: 94%;
+    padding: 10px;
 }
+
        
 .btn-grad {
     background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
@@ -146,6 +159,26 @@ text-align: center;
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+  }
+  #byclicking{
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(129, 141, 157, 1);
+
+  }
+  .companies{
+    width: 1440px;
+    height: 794px;
+    background-color: rgba(255, 255, 255, 1);
   }
  
 
