@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+
+.navbar{
+    position: fixed;
+}
+#Login{
+    padding-right: 35%;
+}
+.listgap{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+  #bluebar{
+    background-color:#2F80ED;
+    color: white ;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    height: 37px;
+  }
+  .nextbatch{
+    padding: 8px;
+  }
+  .heading1{
+    font-family: ABeeZee;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  #fullstack{
+    font-family: ABeeZee;
+    color: #2F80ED;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .heading2{
+    width: 492px;
+    height: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(82, 82, 82, 1);
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .madewith {
+    position: absolute;
+    width: 261px;
+    height: 41px;
+    padding: 10px 20px;
+    border-radius: 23px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(82, 82, 82);
+    gap: 10px;
+    top: 400px !important;
+    left: 15px!important;
+}
+
+  #linkstudent{
+    color:inherit;
+
+  }
+  #launch{
+    width: 711px;
+    height: 308px;
+    top: 226px;
+    left: 110px;
+    gap: 35px;
+
+  }
+  .featuresimg {
+    position: absolute;
+    z-index: 2;
+    top: 170px;
+    left: -26px;
+}
+.arrowimg {
+    position: absolute;
+    z-index: 1;
+    width: 129px;
+    height: 101px;
+    top: 150px;
+    left: 655px;
+    border: 3px;
+}
+
+.startattending{
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    width: 291px;
+    height: 96px;
+
+
+}
+
+#livelectures{
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+#button{
+    color: #eee;
+    font-style: italic;
+}
+       
+.btn-grad {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
